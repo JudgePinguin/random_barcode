@@ -1,7 +1,12 @@
 import random
 
-BLACK = color(0)
-WHITE = color(255)
+BLACK   = color(0)
+GRAY_50 = color(127)
+WHITE   = color(255)
+
+barcode_Colors = [BLACK,GRAY_50,WITE]
+
+
 
 def setup():
     size(1280,720)
